@@ -3,9 +3,9 @@ require("dotenv").config();
 
 module.exports = {
   //==========================================- MAIN - CONFIGS -==================================================================
-  SESSION_ID: process.env.SESSION_ID || "TYUVnRQS#IMrhGpi4SmKcYXttv1iPdPAb0Yj0zHnio_x23vEAnSQ",
+  SESSION_ID: process.env.SESSION_ID || "3UMTWbyb#TcpJD0pDujqKTazxOMQlpKn6QlpWu8K03cNtd6P-LEU",
   // ADD Your Session Id 
-  MONGODB: process.env.MONGODB || "",
+  MONGODB: process.env.MONGODB || "mongodb+srv://vishwamihi22:vishwamihi22@cluster0.y6r9gav.mongodb.net/",
     // ADD Your MongoDB Database URL
   PREFIX: process.env.PREFIX || ".",
   // Add Your Custom Prefix 
@@ -15,20 +15,20 @@ module.exports = {
   // public = AnyOne Working
   // inbox = Only Working  Inbox
   // groups = only working in group
-  OWNER_NUMBER: process.env.OWNER_NUMBER || "94702481115",
+  OWNER_NUMBER: process.env.OWNER_NUMBER || "94706369728",
   //========================================- OTHER - CONFIGS -=====================================================================
   NSFW_CMD: process.env.NSFW_CMD || "false",
   MONGODB: process.env.MONGODB || "mongodb+srv://vishwamihi22:vishwamihi22@cluster0.y6r9gav.mongodb.net/",
   TIMEZONE: process.env.TIMEZONE || "Asia/Colombo",
-  AUTO_VOICE: process.env.AUTO_VOICE || "false",
+  AUTO_VOICE: process.env.AUTO_VOICE || "true",
   AUTO_BIO: process.env.AUTO_BIO || "false",
   ANTI_BAD_WORDS_ENABLED: process.env.ANTI_BAD_WORDS_ENABLED || "true",
   AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
   ANTI_BAD_WORDS: (process.env.ANTI_BAD_WORDS || "pakayo,huththo").split(','),
-  ANTI_LINK: process.env.ANTILINK || "false",
-  ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
-  ALWAYS_TYPING: process.env.ALWAYS_TYPING || "false",
-  ALWAYS_RECORDING: process.env.ALWAYS_RECORDING || "false",
+  ANTI_LINK: process.env.ANTILINK || "true",
+  ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
+  ALWAYS_TYPING: process.env.ALWAYS_TYPING || "true",
+  ALWAYS_RECORDING: process.env.ALWAYS_RECORDING || "true",
   ANTI_BOT: process.env.ANTI_BOT || "true",
   ANTI_DELETE: process.env.ANTI_DELETE || "true",
   packname: process.env.packname || "🪄BHASHI",
@@ -105,8 +105,8 @@ module.exports = {
 
 ` ,
 
-  ALIVE_IMG: process.env.ALIVE_IMG || "https://telegra.ph/file/d8279f4ca5da23bda7da4.jpg",
-  MENU_IMG: process.env.MENU_IMG || "https://i.ibb.co/hRw1XK4/image.png",
+  ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/a5vxz8.jpg",
+  MENU_IMG: process.env.MENU_IMG || "https://files.catbox.moe/a5vxz8.jpg",
   MENU_MSG: process.env.MENU_MSG || `*乂  ＬＩＳＴ  ＭＥＮＵ*
 
 Please Reply The Number You Want To Select.
